@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# secrets - never commit real .env files
+.env
+
+# Claude Code local settings (not part of the project)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
